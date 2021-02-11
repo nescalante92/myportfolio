@@ -29,7 +29,7 @@ the layout is responsive and adapts to my UI viewport
 ## Links
 
 - [Link to Github Profile] (https://github.com/nescalante92/myportfolio)
-- [Link to Deployed Website] () 
+- [Link to Deployed Website] (https://nescalante92.github.io/myportfolio/) 
 
 ## Mockup Image 
 ![myportfolio](Assets\portfoliopicpick.jpg)
