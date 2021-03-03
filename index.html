@@ -7,84 +7,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!----header & nav---->
-    <header>
-        <h1>Nelson Escalante</h1>
-          
-        
-        <!-- <h1>Nelson Escalante</h1> -->
-            <nav>
-            <ul>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- <div class= "hero"></div> -->
-        
-    <!-----Content Containers for each Article----->
-    <main>
-        <article id="about">
-            <img src="#">
-            <h2>About</h2>
-            <p>Hello, my name in Nelson. I am a Chef, however I am an aspiring Full-Stack Developer.
-                I enjoy traveling, cooking, and playing with my dog Lila. I look forward to what the Software Industry has to offer.
-            </p>
-        </article>
-        
-        <article id="projects">
-            <img scr="#" >
-            <h2>Projects</h2> 
-            <ul>
-                <li>
-                    <a href="Projects">Project 1</a>
-                    <img class="project1" src="Assets\depositphotos_12517991-stock-photo-explanation.jpg" alt="Project 1">
-                    <p>In this Project I was able to improve a Web Application's Accesibility.</p>
-                </li>
-                <li>
-                    <a href="Project2">Project2</a>
-                    <img class="project2" src="Assets\depositphotos_44418819-stock-photo-business-team-drawing-a-new.jpg" alt="Project 2"></a>
-                    <p>In this Project I was able to create my first Portfolio</p>
-                </li>
-                <li>
-                    <a href="Project3">Project3</a>
-                    <img class="project3" src="Assets\istockphoto-980272768-612x612.jpg" alt="Project 3"></a>
-                    <p>Here are more Projects to come!</p>
-                </li>
-            </ul>
-        </article>
-    </main>
-    <!--------------footer-->
-        <footer id="contact"> 
-            <img scr="#">
-            <h2>Contact</h2>
-            <div class="container">
-                
-                <a href="(980) 285-9204">Phone Number</a>
-                
-                <a href="nescalante92@gmail.com">Email</a>
-               
-                <a href="https://github.com/nescalante92">GitHub</a>
-                
-                <a href="https://www.linkedin.com/in/nelson-escalante-3377a276/">LinkedIn</a>
-               
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href=#about>
+                    About
+                </a>
+
+                <a class="navbar-item" href=#projects>
+                    Projects
+                </a>
+
+                <a class="navbar-item" href=#contact>
+                    Contact
+                </a>
+
             </div>
-        </footer>
+        </div>
+        </div>
+    </nav>
+    <!-----hero----->
 
+    <section class="hero block is-link is-mobile">
+        <div class="hero-body">
+            <p class="title">
+                Hello,
+            </p>
+            <p class="subtitle">
+                I'm Nelson.
+            </p>
+            <p class="subtitle is-size-4">
+                I'm a Chef turned Full-Stack Developer.
+            </p>
 
+        </div>
+    </section>
+    <!----------Main Content------------------->
+    <div class="tile block is-ancestor is-mobile">
+        <div class="tile is-2 is-vertical is-parent">
+          <div class="tile is-child box">
+            <img class="is-4by3 .is-rounded" src="Assets\portfolio_pic.png" alt="portfolio picture" height="200px" width="200px"> 
+            <p class="subtitle is-6">nescalante92@gmail.com</p>
+            <button><a href='https://docs.google.com/document/d/1-cTyPO_D7eahsojIMPBLp8uOH2_N6r5zbbgLdZupL64/edit#heading=h.ij5tgatt2ll6' alt='Broken Link'>Resume</a></button>
+          </div>
+        </div>
+          <div class="tile is-child box">
+            <a id="about"></a>
+            <p class="title">About Me</p>
+            <p>Hey! I am Venezuelan, and grew up in New Jersey. After completing Highshool I followed my passion for the Culinary Art/ Hospitality. The food industry provided me with valuable skills such as disciple, work-ethic, responisbility, ability to work under pressure and a sence of urgency. After working and traveling in Europe, Germany became my home and my second home, not only did I learn German, but I fell in love with the German culture, values and work-life balance. Finally, after about a decade living abroad and working my way up the culinary "food-chain", it was time for a change and new beginning. I have always been drawn to the Tech Industry and upon my return to the U.S I knew it was time for a career change. Currently, I am completing a full-time Full-Stack Software-Developer Coarse at UNCC. It is my desire to apply my previous experiences and skills from the Hospitality Industry, towards my new career in development.     </p>
+          </div>
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <a id="projects"></a>
+            <p class="title">Projects</p>
+            <ul>
+                <li>
+                    <p class="subtitle">Humgry Web App</p>
+                    <p>In this Project I worked in a team to create a web application that generates food recipes and cocktail drinks baised on ingredient suggestions.This task required HTML,CSS and Javascript. My team and I used two API's to complete our application. </p>
+                    <a href="https://jd-jaramillo.github.io/Recipe-and-Cocktail-Suggester/">Humgry Website</a>
+                    
+                    <img class="project-two" src="Assets\humgry.png" alt="Project 2"></a>
+
+                </li>
+                <li>
+                    <p class="subtitle">Password-Generator</p>
+                    <p>In this Project I was able to create a password generator using HTML.</p>
+                    <a href="https://nescalante92.github.io/passwordgenerator/">Password Website</a>
+                    
+                    <img class="project1" src="Assets\password_generator.png" alt="Project 1">
+                </li>
+                <li>
+                    <p class="subtitle">Quiz-Game</p>
+                    <p>In this project I was able to create a quiz-game using HTML,CSS and Javascript. </p>
+                    <a href="https://nescalante92.github.io/codequiz/">Quiz Website</a>
+                    
+                    <img class="project-three" src="Assets\code_quiz.png" alt="Project 3"></a>
+                </li>
+               
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      <!-------------------------footer----------------------------------->
+      <footer>
+          <div class="contact-title is-mobile">Contact</div>
+          <a id="contact"></a>
+        <div class="contact block">
+            <button><a href='https://github.com/nescalante92' alt='Broken Link'>Github</a></button>
+            <button><a href='https://www.linkedin.com/in/nelson-escalante-3377a276/' alt='Broken Link'>LinkedIn</a></button>
+        </div>
+      </footer>
+        <!-------------------------------------------------------------------------------------->
+    <!-- <article id="projects">
+        <img scr="#">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <a href="Projects">Project 1</a>
+                <img class="project1" src="" alt="Project 1">
+                <p>In this Project I was able to improve a Web Application's Accesibility.</p>
+            </li>
+            <li>
+                <a href="Project2">Project2</a>
+                <img class="project2" src="" alt="Project 2"></a>
+                <p>In this Project I was able to create my first Portfolio</p>
+            </li>
+            <li>
+                <a href="Project3">Project3</a>
+                <img class="project3" src="" alt="Project 3"></a>
+                <p>Here are more Projects to come!</p>
+            </li>
+        </ul>
+    </article>
+    </main> -->
+    <!--------------footer-->
+    <!-- <footer id="contact">
+        <img scr="#">
+        <h2>Contact</h2>
+        <div class="container">
+
+            <a href="(980) 285-9204">Phone Number</a>
+
+            <a href="nescalante92@gmail.com">Email</a>
+
+            <a href="https://github.com/nescalante92">GitHub</a>
+
+            <a href="https://www.linkedin.com/in/nelson-escalante-3377a276/">LinkedIn</a>
+
+        </div>
+    </footer> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
 </body>
-</html>
 
+</html>

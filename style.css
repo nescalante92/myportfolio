@@ -1,271 +1,86 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin:0;
-}
-body{
-    background-color:rgb(218, 206, 206);
-}
-
-
-
-header {
-    
-    height:50px;
-    padding: 0px;
-    font-family: Arial;
-    background-color:lightskyblue;
-    color:cornsilk;
-}
-header h1{
-    font-family:Arial, Helvetica, sans-serif
-
-}
-
-header nav {
-    padding-top:15px;
-    margin-right: 20px;
-    float: right;
-    font-family: calibri;
-    font-size: 20px;
-}
-header nav ul {
-    list-style-type: none;
-}
-header nav ul li{
-    display:inline-block;
-    margin-left: 20px;
-}
-
-#about {
-    border:darkblue solid 5px;
-    color:white;
-    background-color:teal;
-    height:100px;
-    width:100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-     
-
-}
-#projects {
-    border:darkblue solid 5px;
-    color:white;
-    background-color: teal ;
-    height:200px;
-    width:100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display:flex;
-    /* flex-direction: row; */
-
-     
-}
-.project1{
-    display:flex;
-    height: 100px;
-    width: 150px;
-    margin-left: 50px;
-    
-   
-    
-
-}
-.project2{
-    display:flex;
-    height: 100px;
-    width: 150px;
-
-
-    
-   
-}
-.project3 {
-    display:flex;
-    height: 100px;
-    width: 150px;
-    
-    
-}
-#contact {
-    border:darkblue solid 5px;
-    color:white;
-    background-color: teal;
-    height:100px;
-    width:100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-footer{
-    display:flex;
-    justify-content:center ;
-    align-items: flex-end;
-
-}
-@media only screen and (max-width: 1707px){
-    /*Tablets [601px -> 1200px]*/
-}
-@media only screen and (max-width: 600px){
-	/*Big smartphones [426px -> 600px]*/
-}
-@media only screen and (max-width: 425px){
-    
-
-/* .hero {
-    background-image:url("Assets\bannerpic.png.png");
-    height:400px;
-    width: 100%;
-    margin-bottom:25px;
-    background-position: center;
-    background-size: cover; */
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* html, *{
-    margin:0;
-    padding:0;
-    height: 100%
-}
-.hero-image {
-    position:relative;
-    height: 500px;
-    overflow: hidden;
-    background-color:white;
-    padding: 0px;
-    align-items: center;
-    justify-content: space-between;
-}
-header img {
-    display:flex;
-    padding:0px;
-    justify-content:flex-end;
-    align-items:flex-end;
-    
-}
-
-/* .container{
-    max-width: 1172px;
-    margin:0 auto; */
-/* }
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:20px; */
-/* } */
+   background-color:#DCE1E3;
 
-
-/* *{
-    margin:0;
-    height: 100%;
-}
-
-
-
-body {
-    background-color:white;
-    width: 100%;
-    margin:0px;
-    padding:0px;
-}
-
-h1 {
-    text-align:justify;
+  }
+  
+  .contact {
+      display: flex;
+      justify-content:center;
+  }
+  .contact-title {
+    display: flex;
+    justify-content:center;
+  }
+  .far {
+      margin: 20px;
+      height: 20px;
+      width: 20px;
+  }
+  .fab {
+      margin: 20px;
+      height: 20px;
+      width: 20px;
+  }
+  .contact-title {
     font-family: sans-serif;
-    font-size: 30px;
-    color:black
-} 
+    font-size: large;
+
+  }
+ 
 
 
 
-.header {
-    background-image:"Assets\bannerpic.png.png" ;
-    height: 70%;
-    max-width:1172;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-
-}
 
 
 
-nav ul{
-     list-style:none;
-     display:flex;
-     justify-content:space-between;
-     height:60px;
-     background-color:whitesmoke;
-     align-items: center;
-     padding:0px 5%;
-     box-shadow:4px 4px 30px rgba(0,0,0,1.2);
-}
 
-a {
-    text-decoration:none;
-    margin: 30px;
-    font-size: 15px;
-    font-family:Arial, Helvetica, sans-serif;
-    color:grey;
-    font-weight: 500;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
