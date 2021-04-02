@@ -8,12 +8,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -68,101 +64,198 @@
     <!----------Main Content------------------->
     <div class="tile block is-ancestor is-mobile">
         <div class="tile is-2 is-vertical is-parent">
-          <div class="tile is-child box">
-            <img class="is-4by3 .is-rounded" src="Assets\portfolio_pic.png" alt="portfolio picture" height="200px" width="200px"> 
-            <p class="subtitle is-6">nescalante92@gmail.com</p>
-            <button><a href='https://docs.google.com/document/d/1-cTyPO_D7eahsojIMPBLp8uOH2_N6r5zbbgLdZupL64/edit#heading=h.ij5tgatt2ll6' alt='Broken Link'>Resume</a></button>
-          </div>
+            <div class="tile is-child box">
+                <img class="is-4by3 .is-rounded" src="Assets\portfolio_pic.png" alt="portfolio picture">
+
+                <p class="subtitle is-6">nescalante92@gmail.com</p>
+                <!-------Contact------------------>
+                <div class="contact-title is-mobile">Contact</div>
+                    <a id="contact"></a>
+                    <div class="contact block">
+                        <button class="btn"><a class= "btn_link" href='https://github.com/nescalante92' alt='Broken Link'>Github</a></button>
+                        <button class="btn"><a class= "btn_link" href='https://www.linkedin.com/in/nelson-escalante-3377a276/' alt='Broken Link'>LinkedIn</a></button>
+                        <button class="btn"><a class= "btn_link" href='https://docs.google.com/document/d/1-cTyPO_D7eahsojIMPBLp8uOH2_N6r5zbbgLdZupL64/edit#heading=h.ij5tgatt2ll6' alt='Broken Link'>Resume</a></button>
+                    </div>
+            </div>
         </div>
-          <div class="tile is-child box">
+        <div class="tile is-child box">
             <a id="about"></a>
             <p class="title">About Me</p>
-            <p>Hey! I am Venezuelan, and grew up in New Jersey. After completing Highshool I followed my passion for the Culinary Art/ Hospitality. The food industry provided me with valuable skills such as disciple, work-ethic, responisbility, ability to work under pressure and a sence of urgency. After working and traveling in Europe, Germany became my home and my second home, not only did I learn German, but I fell in love with the German culture, values and work-life balance. Finally, after about a decade living abroad and working my way up the culinary "food-chain", it was time for a change and new beginning. I have always been drawn to the Tech Industry and upon my return to the U.S I knew it was time for a career change. Currently, I am completing a full-time Full-Stack Software-Developer Coarse at UNCC. It is my desire to apply my previous experiences and skills from the Hospitality Industry, towards my new career in development.     </p>
-          </div>
+            <p>Hey! I am Venezuelan, and grew up in New Jersey. After completing Highshool I followed my passion for the
+                Culinary Art/ Hospitality. The food industry provided me with valuable skills such as disciple,
+                work-ethic, responisbility, ability to work under pressure and a sence of urgency. After working and
+                traveling in Europe, Germany became my home and my second home, not only did I learn German, but I fell
+                in love with the German culture, values and work-life balance. Finally, after about a decade living
+                abroad and working my way up the culinary "food-chain", it was time for a change and new beginning. I
+                have always been drawn to the Tech Industry and upon my return to the U.S I knew it was time for a
+                career change. Currently, I am completing a full-time Full-Stack Software-Developer Coarse at UNCC. It
+                is my desire to apply my previous experiences and skills from the Hospitality Industry, towards my new
+                career in development. </p>
+        </div>
         <div class="tile is-parent">
-          <div class="tile is-child box">
-            <a id="projects"></a>
-            <p class="title">Projects</p>
-            <ul>
-                <li>
-                    <p class="subtitle">Humgry Web App</p>
-                    <p>In this Project I worked in a team to create a web application that generates food recipes and cocktail drinks baised on ingredient suggestions.This task required HTML,CSS and Javascript. My team and I used two API's to complete our application. </p>
-                    <a href="https://jd-jaramillo.github.io/Recipe-and-Cocktail-Suggester/">Humgry Website</a>
-                    
-                    <img class="project-two" src="Assets\humgry.png" alt="Project 2"></a>
+            <div class="tile is-child box">
+                <a id="projects"></a>
+                <p class="title">Projects</p>
+                <section class="section">
+                    <div class="container">
+                        <div class="columns">
+                            <div class="column">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="Assets\humgry.png" alt="Humgry Image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4" id="Site_Title">Humgry</p>
+                                                <a id="Site_Link"
+                                                    href="https://jd-jaramillo.github.io/Recipe-and-Cocktail-Suggester/">Deployed
+                                                    Site</a>
+                                                <a id="Site_Link"
+                                                    href="https://github.com/nescalante92/Recipe-and-Cocktail-Suggester">Github
+                                                    Repository</a>
+                                            </div>
+                                        </div>
 
-                </li>
-                <li>
-                    <p class="subtitle">Password-Generator</p>
-                    <p>In this Project I was able to create a password generator using HTML.</p>
-                    <a href="https://nescalante92.github.io/passwordgenerator/">Password Website</a>
-                    
-                    <img class="project1" src="Assets\password_generator.png" alt="Project 1">
-                </li>
-                <li>
-                    <p class="subtitle">Quiz-Game</p>
-                    <p>In this project I was able to create a quiz-game using HTML,CSS and Javascript. </p>
-                    <a href="https://nescalante92.github.io/codequiz/">Quiz Website</a>
-                    
-                    <img class="project-three" src="Assets\code_quiz.png" alt="Project 3"></a>
-                </li>
-               
-            </ul>
-            
-          </div>
-        </div>
-      </div>
-      <!-------------------------footer----------------------------------->
-      <footer>
-          <div class="contact-title is-mobile">Contact</div>
-          <a id="contact"></a>
-        <div class="contact block">
-            <button><a href='https://github.com/nescalante92' alt='Broken Link'>Github</a></button>
-            <button><a href='https://www.linkedin.com/in/nelson-escalante-3377a276/' alt='Broken Link'>LinkedIn</a></button>
-        </div>
-      </footer>
-        <!-------------------------------------------------------------------------------------->
-    <!-- <article id="projects">
-        <img scr="#">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <a href="Projects">Project 1</a>
-                <img class="project1" src="" alt="Project 1">
-                <p>In this Project I was able to improve a Web Application's Accesibility.</p>
-            </li>
-            <li>
-                <a href="Project2">Project2</a>
-                <img class="project2" src="" alt="Project 2"></a>
-                <p>In this Project I was able to create my first Portfolio</p>
-            </li>
-            <li>
-                <a href="Project3">Project3</a>
-                <img class="project3" src="" alt="Project 3"></a>
-                <p>Here are more Projects to come!</p>
-            </li>
-        </ul>
-    </article>
-    </main> -->
-    <!--------------footer-->
-    <!-- <footer id="contact">
-        <img scr="#">
-        <h2>Contact</h2>
-        <div class="container">
+                                        <div class="content">
+                                            In this Project I worked alongside a team to create a web application that
+                                            generates food recipes and cocktail drinks baised on ingredient suggestions.This task
+                                            required HTML,CSS and Javascript. My team and I used two API's to complete our application.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------Password Generator----------------->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="Assets\password_generator.png" alt="Password-Generator Image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4" id="Site_Title">Password Generator</p>
+                                                <a id="Site_Link"
+                                                    href="https://nescalante92.github.io/passwordgenerator/">Deployed
+                                                    Site</a>
+                                                <a id="Site_Link"
+                                                    href="https://github.com/nescalante92/passwordgenerator">Github
+                                                    Repository</a>
+                                            </div>
+                                        </div>
 
-            <a href="(980) 285-9204">Phone Number</a>
+                                        <div class="content">
+                                            In this Project I was able to create a password generator using HTML and
+                                            Javascript
+                                            with the help of Alerts and Prompts.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---------------------------Coding Quiz--------------------------->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="Assets\code_quiz.png" alt="Quiz Image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4" id="Site_Title">Coding Quiz</p>
+                                                <a id="Site_Link"
+                                                    href="https://nescalante92.github.io/codequiz/">Deployed Site</a>
+                                                <a id="Site_Link" href="https://github.com/nescalante92/codequiz">Github
+                                                    Repository</a>
+                                            </div>
+                                        </div>
 
-            <a href="nescalante92@gmail.com">Email</a>
+                                        <div class="content">
+                                            In this project I was able to create a quiz-game using HTML,CSS and
+                                            Javascript.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="Assets\e-commerce.png" alt="E_Commerce Image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4" id="Site_Title">E-Commerce</p>
+                                                <a id="Site_Link"
+                                                    href="https://github.com/nescalante92/E_Commerce-">Github
+                                                    Repository</a>
+                                            </div>
+                                        </div>
 
-            <a href="https://github.com/nescalante92">GitHub</a>
+                                        <div class="content">
+                                            In this Project I establised the back-end for a potential E-Commerce
+                                            website, with the help of Javascript, MySQL and Postman for API retreval.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-------------------------------------cuPets----------------------------->
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="Assets\cuPets.png" alt="cupets Image">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4" id="Site_Title">cuPets</p>
+                                                <a id="Site_Link"
+                                                    href="https://ancient-dawn-51222.herokuapp.com/login">Deployed
+                                                    Site</a>
+                                                <a id="Site_Link" href="https://github.com/nescalante92/cuPets">Github
+                                                    Repository</a>
+                                            </div>
+                                        </div>
 
-            <a href="https://www.linkedin.com/in/nelson-escalante-3377a276/">LinkedIn</a>
+                                        <div class="content">
+                                            In this Project I worked alongside a team to create a web application that
+                                            allows Pet owners to meet and socialize their pets. We used our very own
+                                            internal database to generate our own APIs alongside Sequlize, Handlebars,
+                                            Javascript and the Bulma CSS framework, my team and I created a responsive
+                                            Web App that allows Pet owners to share Pet images and create long-lasting
+                                            friendships through common
+                                            Pet intrests.
 
-        </div>
-    </footer> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/script.js"></script>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="assets/script.js"></script>
 </body>
 
 </html>
+<!--------------footer-->
+<!-- <footer id="contact">
+    <img scr="#">
+    <h2>Contact</h2>
+    <div class="container">
+        
+        <a href="(980) 285-9204">Phone Number</a>
+        
+        <a href="nescalante92@gmail.com">Email</a>
+        
+        <a href="https://github.com/nescalante92">GitHub</a>
+        
+        <a href="https://www.linkedin.com/in/nelson-escalante-3377a276/">LinkedIn</a>
+        
+    </div>
+</footer> -->
